@@ -25,3 +25,5 @@ The front-end is in `views/search-filter.blade.php`.
 
 ### Happy Testing
 
+P.S. Remember to setup .env file - DB connection
+
