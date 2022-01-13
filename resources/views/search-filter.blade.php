@@ -23,9 +23,12 @@
         }
         .style-row {
             border-radius: 10px;
-            padding: 5px;
-            margin: 5px;
-            box-shadow: 2px 4px 18px rgba(0,0,0,0.2);
+            padding: 15px 0 15px 0;
+            margin: 0 5px 15px 5px;
+            box-shadow: 1px 2px 7px rgba(0,0,0,0.2);
+        }
+        .fields:hover {
+            border: 1px solid green;
         }
     </style>
 </head>
@@ -44,12 +47,12 @@
                     <div class="row m-1">
                         <div class="col-12">
                             <label class="fw-bold" for="search"> Search:</label>
-                            <input type="text" id="search" name="search" class="form-control input-lg" placeholder="Enter location" />
+                            <input type="text" id="search" name="search" class="form-control input-lg fields" placeholder="Enter location" />
                         </div>
                     </div>
                     <div class="row m-1">
                         <div class="col-6">
-                            <select class="form-select" id="sleeps" name="sleeps" aria-label="Sleeps">
+                            <select class="form-select fields" id="sleeps" name="sleeps" aria-label="Sleeps">
                                 <option selected>Sleeps</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -61,7 +64,7 @@
                             </select>
                         </div>
                         <div class="col-6">
-                            <select class="form-select" id="beds" name="beds" aria-label="Beds">
+                            <select class="form-select fields" id="beds" name="beds" aria-label="Beds">
                                 <option selected>Beds</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -75,13 +78,13 @@
                     </div>
                     <div class="row m-1">
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox" value="1" id="near_beach" name="near_beach">
+                            <input class="form-check-input fields" type="checkbox" value="1" id="near_beach" name="near_beach">
                             <label class="form-check-label" for="near_beach">
                                 Near Beach
                             </label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox" value="1" id="accepts_pets" name="accepts_pets">
+                            <input class="form-check-input fields" type="checkbox" value="1" id="accepts_pets" name="accepts_pets">
                             <label class="form-check-label" for="accepts_pets">
                                 Accept Pets
                             </label>
