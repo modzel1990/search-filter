@@ -1,6 +1,6 @@
 ### How to run
 To run the server please do
-`npm run serve`
+`php artisan serve`
 
 You will be able to access the project under `localhost:8000`
 
