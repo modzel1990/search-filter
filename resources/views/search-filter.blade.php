@@ -23,9 +23,9 @@
         }
         .style-row {
             border-radius: 10px;
-            border: 1px solid black;
             padding: 5px;
             margin: 5px;
+            box-shadow: 2px 4px 18px rgba(0,0,0,0.2);
         }
     </style>
 </head>
